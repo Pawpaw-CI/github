@@ -54,4 +54,10 @@ elif color =="bee purple":
 else:
     print "I've never heard of the color",color
 
+#4.4 while循环
+#从1打印至5
+count =1
+while count <=5:
+    print count
+    count +=1
 
