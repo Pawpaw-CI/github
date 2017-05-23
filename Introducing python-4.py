@@ -15,10 +15,12 @@ alphabet = "abcd"+\
     "QEWQEQ"+\
     "ddf"
 print alphabet
+
 #4.3使用if elif else
 #单值真假输入：0,1
-print("请输入：True or False")
-disaster = input()#输入参数：False假，输入数字或布尔值0,1
+#print("请输入：True or False")
+#disaster = input()#输入参数：False假，输入数字或布尔值0,1
+disaster = 1
 if disaster:
     print "正确的选择!"
 else:
@@ -40,5 +42,16 @@ else:
     else:
         print ("00，it's a human ,or a hairless bear")
 
+#三个条件以上的判定if\elif \else
+
+color ="puce"
+if color == "red":
+    print "it's a tomato"
+elif color=="green":
+    print "it's a grenn pepper"
+elif color =="bee purple":
+    print "I don't what it is ,but only bees can see it "
+else:
+    print "I've never heard of the color",color
 
 
